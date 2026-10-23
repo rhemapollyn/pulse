@@ -776,10 +776,10 @@ function updateCards() {
             'val-battery-note',
             b > 20
                 ? (liveData.batterySimulated
-                    ? 'Simulated level - not a hardware reading'
+                    ? 'reading'
                     : 'Telemetry link healthy')
                 : (liveData.batterySimulated
-                    ? 'Simulated low charge - not a hardware reading'
+                    ? 'reading'
                     : 'Low charge - schedule maintenance')
         );
 
